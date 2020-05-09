@@ -460,9 +460,14 @@
         </profile>
    </profiles>
     <distributionManagement>
+        <repository>
+			<id>local-nexus</id>
+			<layout>default</layout>
+			<url>http://localhost:8083/nexus/repository/maven-releases/</url>
+		</repository>
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://localhost:8083/nexus/content/repositories/snapshots</url>
+      <url>http://localhost:8083/nexus/repository/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
