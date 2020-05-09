@@ -462,7 +462,7 @@
     <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://localhost:8081/repository/SampleCI-CD_Repository</url>
+      <url>http://localhost:8083/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
 
