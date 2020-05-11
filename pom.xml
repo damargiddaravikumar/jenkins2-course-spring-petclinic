@@ -460,13 +460,7 @@
     </profile>
    </profiles>
 <project>
-    <repositories>
-    <repository>
-      <id>SampleCI-CD_Repository</id>
-      <url>http://localhost:8081/repository/SampleCI-CD_Repository/</url>
-    </repository>
-  </repositories>
-<distributionManagement>
+ <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
       <url>http://localhost:8081/repository/SampleCI-CD_Repository/</url>
@@ -476,7 +470,6 @@
       <url>http://localhost:8081/repository/SampleCI-CD_Repository/</url>
     </repository>
   </distributionManagement>
-  </distributionManagement>
-    <url>demopetclinic</url>
+      <url>demopetclinic</url>
     </project>
 </project>
