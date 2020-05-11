@@ -459,7 +459,7 @@
         </properties>
     </profile>
    </profiles>
-    <project ...>
+    <project>
   <repositories>
     <repository>
       <id>SampleCI-CD_Repository</id>
@@ -467,7 +467,7 @@
     </repository>
   </repositories>
 </project>
-<project ...>
+<project>
 <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
