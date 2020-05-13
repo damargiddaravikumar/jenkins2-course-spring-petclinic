@@ -471,13 +471,13 @@
     <repository>
         <id>my-releases</id>
         <name>my-releases</name>
-        <url>http://your-repository-host:8083/nexus/content/repositories/my-releases/</url>
+        <url>http://localhost:8083/nexus/content/repositories/my-releases/</url>
         <layout>default</layout>
     </repository>
     <snapshotRepository>
         <id>my-snapshots</id>
         <name>my-snapshots</name>
-        <url>http://your-repository-host:8083/nexus/content/repositories/my-snapshots/</url>
+        <url>http://localhost:8083/nexus/content/repositories/my-snapshots/</url>
         <layout>default</layout>
     </snapshotRepository>
 </distributionManagement>
