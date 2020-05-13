@@ -467,22 +467,19 @@
         </properties>
     </profile>
    </profiles>
-<repositories>
-    <repository>
-      <id>SampleCI-CD_Repository</id>
-      <url>http://localhost:8081/repository/SampleCI-CD_Repository/</url>
-    </repository>
-  </repositories>
  <distributionManagement>
-    <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://localhost:8081/repository/SampleCI-CD_Repository/</url>
-    </snapshotRepository>
     <repository>
-      <id>nexus-releases</id>
-      <url>http://localhost:8081/repository/SampleCI-CD_Repository/</url>
+        <id>my-releases</id>
+        <name>my-releases</name>
+        <url>http://your-repository-host:8083/nexus/content/repositories/my-releases/</url>
+        <layout>default</layout>
     </repository>
-  </distributionManagement>
-      <url>demopetclinic</url>
-   
+    <snapshotRepository>
+        <id>my-snapshots</id>
+        <name>my-snapshots</name>
+        <url>http://your-repository-host:8083/nexus/content/repositories/my-snapshots/</url>
+        <layout>default</layout>
+    </snapshotRepository>
+</distributionManagement>
+      <url>demopetclinic</url>   
 </project>
