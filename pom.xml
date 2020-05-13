@@ -463,7 +463,7 @@
             <activeByDefault>true</activeByDefault>
         </activation>
         <properties>
-          <sonar.host.url>http://localhost:8082</sonar.host.url>         
+          <sonar.host.url>http://localhost:9005</sonar.host.url>         
         </properties>
     </profile>
    </profiles>
